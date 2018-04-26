@@ -1,8 +1,8 @@
 package = "kong-plugin-pipeline"
-version = "0.1.0-1"
+version = "0.2.0-1"
 source = {
    url = "git://github.com/Kong-Study-Group/kong-plugin-pipeline",
-   tag = "0.1.0"
+   tag = "0.2.0"
 }
 description = {
    summary = "Kong custom plugin for hiting the specified upstream target",
