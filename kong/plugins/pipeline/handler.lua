@@ -13,7 +13,6 @@ local function split(s, sep)
     if string.sub(sep, 1, 1) == "%" then
         sep_len = sep_len - 1
     end
-    print("sep_len", sep_len)
 
     while true do
         local last_index = string.find(s, sep, start_index)
